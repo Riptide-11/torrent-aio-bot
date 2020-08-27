@@ -38,12 +38,15 @@ function Downloads() {
         <Input
           id="link"
           name="link"
-          label="Magnet Link"
+          label="Magnet Link(check seedrs and leechers ratio before uploading)"
           placeholder="magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10"
           value={link}
           onChange={setLink}
           required
         />
+          <button onclick="window.location.href='https://checker.openwebtorrent.com'">
+            Check health
+          </button>
         {addingError !== "" && <div className="text-danger">{addingError}</div>}
         <button disabled={adding} className={`btn primary${adding ? " loading" : ""}`} type="submit">
           Add
