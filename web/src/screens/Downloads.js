@@ -38,18 +38,18 @@ function Downloads() {
         <Input
           id="link"
           name="link"
-          label="Magnet Link(check seedrs and leechers ratio before uploading at https://checker.openwebtorrent.com)"
+          label="Magnet Link(check seedrs and leechers ratio before uploading <a href="https://checker.openwebtorrent.com">click here</a>)"
           placeholder="magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10"
           value={link}
           onChange={setLink}
           required
         />
-    <b>Note if it does not have enough seeders than uploading will be cancelled automatically</b>
         {addingError !== "" && <div className="text-danger">{addingError}</div>}
         <button disabled={adding} className={`btn primary${adding ? " loading" : ""}`} type="submit">
           Add
         </button>
       </form>
+      <b>Note if it does not have enough seeders than uploading will be cancelled automatically</b>
       {error && <div className="text-danger mt-1">An error occured. Check your internet.</div>}
       {data && (
         <div className="d-flex-column mt-1">
