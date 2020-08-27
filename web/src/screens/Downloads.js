@@ -49,7 +49,7 @@ function Downloads() {
           Add
         </button>
       </form>
-      <i>Check your torrent at <a href="https://checker.openwebtorrent.com">Site...///</a></i><br>
+      <i>Check your torrent at <a href="https://checker.openwebtorrent.com">Site...///</a></i>
       <b>Note:- If it does not have enough seeders than uploading will be cancelled automatically</b>
       {error && <div className="text-danger mt-1">An error occured. Check your internet.</div>}
       {data && (
