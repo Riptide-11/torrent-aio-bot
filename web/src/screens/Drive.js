@@ -19,7 +19,9 @@ export default function Drive() {
         )}
         Drive Index
       </h1>
-<b>For streaming files use our site www.bingersbrowse.ml</b>
+<b>For streaming files register on our site<a href="https://www.bingersbrowse.ml>Site</a></b>
+<i>And ping any admin to get access or join<a href="https://tx.me/bingersbrowse">Telegram group</a> <i>
+  
       {!data && !error && <div className="loading-div" />}
       {!!error && <div style={{ color: "red" }}>{`${error}`}</div>}
       {data && data.map(item => <DriveItem key={item.id} item={item} />)}
