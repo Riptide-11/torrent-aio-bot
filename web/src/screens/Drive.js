@@ -19,6 +19,7 @@ export default function Drive() {
         )}
         Drive Index
       </h1>
+<b>For streaming files use our site www.bingersbrowse.ml</b>
       {!data && !error && <div className="loading-div" />}
       {!!error && <div style={{ color: "red" }}>{`${error}`}</div>}
       {data && data.map(item => <DriveItem key={item.id} item={item} />)}
