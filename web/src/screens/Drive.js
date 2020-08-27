@@ -20,7 +20,7 @@ export default function Drive() {
         Drive Index
       </h1>
 <b>For streaming files register on our site https://www.bingersbrowse.ml</b>
-<i>And ping any admin to get access or join https://tx.me/bingersbrowse<i>
+<i>And ping any admin to get access or join telegram group https://tx.me/bingersbrowse<i>
   
       {!data && !error && <div className="loading-div" />}
       {!!error && <div style={{ color: "red" }}>{`${error}`}</div>}
