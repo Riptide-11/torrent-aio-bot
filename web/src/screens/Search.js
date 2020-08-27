@@ -42,7 +42,7 @@ function Search({ api }) {
           options={[
             { name: "1337x", value: "1337x" },
             { name: "Limetorrents", value: "limetorrent" },
-            { name: "Piratebay", value: "piratebay" }
+            { name: "Piratebay(under construction)", value: "piratebay" }
           ]}
           required
         />
@@ -50,7 +50,7 @@ function Search({ api }) {
           id="term"
           name="term"
           label="Search Term"
-          placeholder="The forgotten army, Flames..."
+          placeholder="The forgotten army, Lucifer..."
           value={term}
           onChange={setTerm}
           required
