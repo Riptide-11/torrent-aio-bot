@@ -44,9 +44,6 @@ function Downloads() {
           onChange={setLink}
           required
         />
-          <button onclick="window.location.href='https://checker.openwebtorrent.com'">
-            Check health
-          </button>
         {addingError !== "" && <div className="text-danger">{addingError}</div>}
         <button disabled={adding} className={`btn primary${adding ? " loading" : ""}`} type="submit">
           Add
