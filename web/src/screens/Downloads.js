@@ -38,7 +38,7 @@ function Downloads() {
         <Input
           id="link"
           name="link"
-          label="Magnet Link (check seedrs and leechers ratio before uploading https://checker.openwebtorrent.com)"
+          label="Magnet Link (check seedrs and leechers ratio before uploading <a href="https://checker.openwebtorrent.com">Site</a>)"
           placeholder="magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10"
           value={link}
           onChange={setLink}
