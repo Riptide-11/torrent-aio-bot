@@ -21,7 +21,7 @@ export default function Drive() {
       </h1>
 <b>
           For streaming files register on our <a href="https://www.bingersbrowse.ml">Site</a>
-</b>
+</b>-------------
 <i>
             And ping any admin to get access or join <a href="https://tx.me/bingersbrowse">telegram group</a>
 </i>
